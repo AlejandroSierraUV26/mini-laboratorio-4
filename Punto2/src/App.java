@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-
+import java.util.Scanner;
 
 public class App{
     public static void contarVocalesConsonantes(String texto) {
@@ -37,7 +37,11 @@ public class App{
     }
 
     public static void main(String[] args) {
-        System.out.println("¡Hola Mundo!");
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ingrese una palabra: ");
+        String palabra = entrada.nextLine();
+        contarVocalesConsonantes(palabra);
+        entrada.close();
     }
 }
 
