@@ -1,3 +1,11 @@
+/*
+ * Alejandro Sierra Betancourt 
+ * 2259559
+ * Juan Manuel Ramirez Agudelo 
+ * 2259482
+ * Juan Pablo Castaño Arango
+ * 2259487
+ */
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
